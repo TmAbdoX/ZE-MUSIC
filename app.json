@@ -1,7 +1,7 @@
 {
-    "name": "elhabiby ダ ᴍᴜsɪᴄ",
+    "name": "ze ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/d08025a099b45f9909265.jpg",
+    "logo": "https://telegra.ph/file/5116db79f852db113875c.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "ال ايه بي اي ايدي استخرجه من هنا  https://my.telegram.org",
-        "value": "",
+        "value": "21627756",
         "required": true
       },
       "API_HASH": {
         "description": "الايبي هاش",
-        "value": "",
+        "value": "fe77fbf0cae9f7f5ece37659e2466cf1",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "ايدي المطور.",
-        "value": "",
+        "value": "6509622797",
         "required": true
       },
       "STRING_SESSION": {
