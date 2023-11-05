@@ -30,6 +30,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+USER_OWNER = getenv("UP_UO")
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Source-Ze1/ZE-MUSIC",
