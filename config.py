@@ -26,6 +26,8 @@ OWNER_ID = int(getenv("OWNER_ID", 5650717789))
 
 MUSIC_BOT_NAME = getenv("كارولين")
 
+USER_OWNER = getenv("UP_UO")
+
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -34,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Source-Ze/ZE-MUSIC",
+    "https://github.com/Source-Ze1/ZE-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
