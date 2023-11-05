@@ -54,21 +54,40 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "—————————◉"
     buttons = [
         [
-            InlineKeyboardButton(text="𝒓𝒆𝒔𝒖𝒎𝒆", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝒑𝒂𝒖𝒔𝒆", callback_data=f"ADMIN Pause|{chat_id}"),
-        ],[
-            InlineKeyboardButton(text="𝒓𝒆𝒑𝒍𝒂𝒚", callback_data=f"ADMIN Replay|{chat_id}"),
-        ],[ 
-            InlineKeyboardButton(text="𝒔𝒌𝒊𝒑", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="𝒔𝒕𝒐𝒑", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
-        [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝒄𝒍𝒐𝒔𝒆")],
+        [
+            InlineKeyboardButton(
+                text="𖣂 𝐑𝐞𝐬𝐮𝐦𝐞 𖣂",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐒𝐤𝐢𝐩 𖣂", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐒𝐭𝐨𝐩 𖣂", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],[   
+            InlineKeyboardButton(
+                text="𖣂 𝐏𝐚𝐮𝐬𝐞 𖣂", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐑𝐞𝐩𝐥𝐚𝐲 𖣂 ", callback_data=f"add_playlist {videoid}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮", url=f"https://t.me/UP_UO"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true"
+            )
+        ],
     ]
     return buttons
 
@@ -76,15 +95,40 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="𝒓𝒆𝒔𝒖𝒎𝒆", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝒑𝒂𝒖𝒔𝒆", callback_data=f"ADMIN Pause|{chat_id}"),
-        ],[
-            InlineKeyboardButton(text="𝒓𝒆𝒑𝒍𝒂𝒚", callback_data=f"ADMIN Replay|{chat_id}"),
-        ],[ 
-            InlineKeyboardButton(text="𝒔𝒌𝒊𝒑", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="𝒔𝒕𝒐𝒑", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝒄𝒍𝒐𝒔𝒆")],
+        [
+            InlineKeyboardButton(
+                text="𖣂 𝐑𝐞𝐬𝐮𝐦𝐞 𖣂",
+                callback_data=f"ADMIN Resume|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐒𝐤𝐢𝐩 𖣂", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐒𝐭𝐨𝐩 𖣂", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],[   
+            InlineKeyboardButton(
+                text="𖣂 𝐏𝐚𝐮𝐬𝐞 𖣂", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="𖣂 𝐑𝐞𝐩𝐥𝐚𝐲 𖣂 ", callback_data=f"add_playlist {videoid}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮", url=f"https://t.me/UP_UO"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true"
+            )
+        ],
     ]
     return buttons
 
