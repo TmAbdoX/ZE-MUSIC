@@ -13,7 +13,7 @@ psutil
 py-tgcalls
 pykeyboard
 pyromod
-pyrogram == 2.0.56
+pyrogram == 2.0.106
 python-dotenv
 pyyaml
 requests
