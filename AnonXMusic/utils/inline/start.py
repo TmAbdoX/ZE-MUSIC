@@ -8,7 +8,7 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="جروب الدعم", url=f"https://t.me/{app.username}?startgroup=true"
+                text="اضف البوت الي مجموعتك", url=f"https://t.me/{app.username}?startgroup=true"
             ),
             InlineKeyboardButton(text="جروب الدعم", url=config.SUPPORT_CHAT),
         ],
