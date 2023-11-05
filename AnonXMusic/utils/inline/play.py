@@ -70,7 +70,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],[            
             InlineKeyboardButton(text="𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮", url=f"https://t.me/UP_UO"),
         ],
-        [InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true")],
+           [InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true")],
     ]
     return buttons
 
@@ -87,7 +87,7 @@ def stream_markup(_, chat_id):
         ],[            
             InlineKeyboardButton(text="𐇮 𝑴𝑶𝑫𝒀 𖠮🚸𖠮 آلـۘهہؚيـٰـ‌ُـُ໋۠بـ໋ۘ۠ه 𐇮", url=f"https://t.me/UP_UO"),
         ],
-        [text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true")],
+           [InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/S1CXBOT?startgroup=true")],
     ]
     return buttons
 
